@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    
+}
+
+.header{
+    margin: 2vw 0vw;
+    text-align: center;
+    font-size: 7vw;
+    color: #0eaab8;
+    
+}
+.wach p{
+    color: rgb(127, 127, 255);
+}
+.wach h2{
+    color: whitesmoke;
+}
+.mower p{
+    color: rgb(127, 127, 255);
+}
+.mower h2{
+    color: whitesmoke;
+}
+
+.newgames{
+    margin: 0vw 1vw ;
+    background-color:rgb(127, 127, 255);
+
+    border: none;
+    color: black;
+    padding: 0.25vw 1vw;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+
+.newgames:hover {
+    background-color: whitesmoke;
+
+}
+
+.almara{
+    position: absolute;
+    top: 36vw;
+    left: 1vw;
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: -1vw 59vw;
+    padding: 1vw 1vw;
+    
+}
+.mower{
+    width: 6vw;
+}
+
+.timemoves{
+    display: flex;
+    width: 19vw;
+    justify-content: space-between;
+
+}
+
+.buttons{
+    width: 28vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    top: 57vw;
+    left: 67vw;
+}
+
+.pas_clock , .resum_clock{
+    border: none;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color:whitesmoke;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    width: 11vw;
+    cursor: pointer;
+}
+
+.pas_clock{
+    background-color:rgb(127, 127, 255);
+}
+.pas_clock:hover{
+    color: rgb(127, 127, 255);
+    background-color: whitesmoke;
+}
+
+.resum_clock{
+    background-color: rgba(116,213,227,255);
+}
+.resum_clock:hover{
+    color: rgba(116,213,227,255);
+    background-color: whitesmoke;
+}
+
+
+.Boxer {
+    margin: 6vw 2vw;
+    border: 0.8vw solid #0b9eba;
+    position: relative;
+}
+
+.number-tile{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #f86a0b;
+    color: rgb(14, 14, 14);
+    border-radius: 0.5vw;
+    box-shadow: 0 2px 4px rgba(250, 243, 243, 0.5);
+    cursor: pointer;
+    font-size: 2vw;
+    z-index: 1;
+    transition: opacity 1s ease;
+}
+
+
+.plas{
+    padding: 1vw 1vw;
+    margin: -1vw -1vw;
+    position: absolute;
+    top: 65%;
+    left: 11.2%;
+    z-index: 2;
+    background: radial-gradient(rgb(255,255,255,0.5), rgba(255,255,255,0.25));
+    width: 42vw;
+    height: 42vw;
+}
+
+.playbutton{
+    border: none;
+    margin: 18vw 0vw 0 18.5vw;
+    background-color: white;
+    padding: 1.55vw;
+    border-radius: 5vw;
+    cursor: pointer;
+    z-index: 4;
+}
+
+ .tooth {
+    font-size: 5vw;
+}
+
+
+
+.winner {
+    text-align: center;
+    width: 45vw;
+    margin: 6vw auto;
+    display: none;
+}
+.winner  a{
+    text-decoration: none;
+    color: white;
+}
+.winner  h1{
+    color: #B31312;
+    margin: 0 0 4vw 0;
+    font-size: 5vw;
+}
+
+.winner  p{
+    font-size: 3vw;
+    margin: 2vw 0vw;
+}
+
+.new-gamers , .home{
+    border: none;
+    padding: 1vw 10vw;
+    margin: 1vw 0vw;
+    font-size: 2vw;
+    color: white;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.new-gamers{
+    background-color: rgb(94, 223, 94);
+}
+
+.new-gamers:hover{
+    outline: 0.2vw solid rgb(98, 204, 98);
+    outline-offset: 0.4vw;
+}
+
+.Hom{
+    background-color: rgb(127, 127, 255);
+}
+
+.Hom:hover{
+    outline: 0.2vw solid rgb(127, 127, 255);
+    outline-offset: 0.4vw;
+}
+.link {
+
+   
+    margin: 12vw 1vw;
+    padding: 1vw 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.link img{
+    height: 7vw;
+    width: 8vw;
+    margin: 1vw 1vw;
+    padding: 1vw 1vw;
+}
+
+.slogan p{
+    position: absolute;
+    top: 80vw;
+    left: 5vw;
+    margin: 3vw 31vw -1vw ;
+    padding: 1vw 1vw ;
+    font-size: 4vw;
+    color: rgb(127, 127, 255);
+
+}
